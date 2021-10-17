@@ -86,6 +86,7 @@ body{
     box-shadow: rgb(150, 164, 164) 5px 5px;
     background-color: rgb(120, 144, 169);
     color: white;
+    border-radius: 8%;
 }
 
 /* .likes{
@@ -129,6 +130,7 @@ body{
     box-shadow: rgb(150, 164, 164) 5px 5px;
     background-color: rgb(89, 209, 245) ;
     color: white;
+    border-radius: 5%;
 }
 
 #you{
