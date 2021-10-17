@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="logOut(this)">Login</button>
+    </div>
+    <!-- container box -->
+    <div id="container">
+        <!-- left side -->
+        <div id="leftbox">
+            <!-- top box -->
+            <div class="boxA">
+                <div class="box1">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <p>Plural: ninjas</p>
+                    <button onclick="alert('Ninja was liked')">17 likes</button>
+                </div> 
+                <p class="box2">A practioner skilled in the <span class="def">Japanese</span>  art of <span class="def">ninjutsu</span></p>
+            </div>
+            <!-- bottom box -->
+            <div class="boxA">
+                <div class="box1">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <p>Plural: ninjas</p>
+                    <button onclick="alert('Ninja was liked')">37 likes</button>
+                </div> 
+                <p class="box2">A <span class="def">programmer</span> who breaks  down problems with <span class="def">zen</span>-like focus</p>
+            </div>
+        </div>
+        <!-- right side -->
+        <div id="rightbox">
+            <div id="boxC">
+                <p>Dojonary is defined by <span id="you">YOU</span></p>
+                <button onclick="hide(this)" >Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <!-- navbottom -->
+    <div id="navbtm"></div>
+    <script src="script.js"></script>
+</body>
+</html>

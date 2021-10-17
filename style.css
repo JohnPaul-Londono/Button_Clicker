@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+}
+/* Navbar Rules */
+#navbar{
+    background-color: rgb(89, 209, 245) ;
+    height: 50px;
+    width: 800px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* border-radius: 5%; */
+}
+#navbar h1{
+    color: white;
+}
+#navbar input{
+    width: 280px;
+    padding: 5px;
+}
+
+#navbar button{
+    color: white;
+    background-color: royalblue;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5%;
+    box-shadow: slategray 5px 5px;
+}
+/* container rules */
+#container{
+    display: flex;
+    width: 800px;
+    min-height: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: rgb(89, 209, 245) dashed; */
+}
+
+/* leftbox rules */
+
+#leftbox{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    /* border: rgb(255, 139, 245) dashed; */
+    gap: 20px;
+}
+
+.boxA{
+    border: rgb(120, 144, 169) solid;
+    height: 250px;
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+    border-radius: 3%;
+    align-items: center;
+    text-align: center;
+    
+}
+.box1 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.box1 h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.box1 h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box1 button{
+    margin-top: 30px;
+    width: 75px;
+    height: 25px;
+    box-shadow: rgb(150, 164, 164) 5px 5px;
+    background-color: rgb(120, 144, 169);
+    color: white;
+}
+
+/* .likes{
+    background-color: rgb(120, 144, 169);
+    color: white;
+} */
+.box2{
+    font-size: 20px;
+    padding-right: 15px;
+}
+.def{
+    color: rgb(89, 209, 245);
+    text-decoration: underline;
+}
+
+/* rightbox rules */ 
+
+#rightbox{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    /* border: rgb(255, 139, 245) dashed; */
+    margin-left: 20px;
+}
+
+#boxC{
+    border: rgb(120, 144, 169) solid;
+    border-radius: 3%;
+    height: 160px;
+    text-align: center;
+    padding-top: 30px; 
+}
+#boxC p{
+    font-size: 30px;
+    margin: 5px 10px 0px;
+}
+#boxC button{
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    box-shadow: rgb(150, 164, 164) 5px 5px;
+    background-color: rgb(89, 209, 245) ;
+    color: white;
+}
+
+#you{
+    font-weight: bolder;
+}
+
+/* navbottom rules */
+#navbtm{
+    background-color: rgb(89, 209, 245);
+    min-height: 20px;
+    width: 100%; 
+    bottom: 0px;
+    position: fixed;
+}
